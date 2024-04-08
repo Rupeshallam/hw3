@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Dictionary</h1>
+        <nav>
+
+            <ul type = circle>
+                <li><a href ="../index.html"> Home <body text ="yellow"></a> </li>
+                    <li><a href ="blog.html">  Blog <body text ="yellow"></a></li>
+                    <li><a href ="About.html"> About <body text ="yellow"></a> </li> 
+                        <li><a href ="dictionary.html"> Dictionary <body text ="yellow"></a> </li>  
+            </nav>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a word">
+            <button onclick="searchWord()">Search</button>
+        </div>
+        <div id="meanings"></div>
+    </main>
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
+    <script src="../js/dictionary.js"></script>
+</body>
+</html>
